@@ -36,6 +36,7 @@ setupApp();
 
 const container = document.getElementById('app');
 const bootstrap = JSON.parse(container.getAttribute('data-bootstrap'));
+console.log(JSON.stringify(bootstrap));
 const user = { ...bootstrap.user };
 const menu = { ...bootstrap.common.menu_data };
 
